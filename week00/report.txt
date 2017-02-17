@@ -1,0 +1,6 @@
+By Budi Wahyu Herlen Adita(1606954760)
+
+In the week01, there are some tasks that have been done:
+1. Create github account and create repo os171 as the name.
+2. Make sure to have google account and fill a form.
+3. Login to badak server. but because i access those address from external network, i have to access to kawung firstly 

@@ -1,0 +1,6 @@
+By Budi Wahyu Herlen Adita (1606954760)
+
+In week01, there are some tasks that has been done :
+1. Create file dummy in local folder os171
+2. Inside that repo create folder week00 till week11, key, log, xtra and sandbox
+3. Push them, so, don't forget to add those changes and commit them.
