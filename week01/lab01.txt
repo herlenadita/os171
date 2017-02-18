@@ -21,3 +21,4 @@ drwxr-xr-x  2 budi.wahyu61 StafCS 4096 Feb 18 06:12 week10
 drwxr-xr-x  2 budi.wahyu61 StafCS 4096 Feb 18 06:12 week11
 drwxr-xr-x  2 budi.wahyu61 StafCS 4096 Feb 18 06:13 xtra
 /home/fasilkom/mahasiswa/b/budi.wahyu61/os171/week01
+Today is 18 Feb 2017 at 10:12:48
