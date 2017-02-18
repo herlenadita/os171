@@ -4,3 +4,7 @@ In week01, there are some tasks that has been done :
 1. Create file dummy in local folder os171
 2. Inside that repo create folder week00 till week11, key, log, xtra and sandbox
 3. Push them, so, don't forget to add those changes and commit them.
+4. Create script bash about date, then after finishing push them to repo
+5. Create log about what has been done on the week01
+6. Check everthing whether it is someting's left or not
+
