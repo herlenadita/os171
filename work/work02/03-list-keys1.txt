@@ -1,5 +1,0 @@
-pub   4096R/8C5ACCF5 2017-02-25 [expires: 2017-08-24]
-      Key fingerprint = 1266 A72B A7EE 71CC 92CD  748A 096D C2FD 8C5A CCF5
-uid                  Budi Wahyu Herlen Adita (studying OS is ez!) <budi.wahyu61@ui.ac.id>
-sub   4096R/29A1B824 2017-02-25 [expires: 2017-08-24]
-
