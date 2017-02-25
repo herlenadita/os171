@@ -1,0 +1,6 @@
+total 16
+drwxr-xr-x 2 budi.wahyu61 StafCS 4096 Feb 25 10:16 .
+drwxr-xr-x 3 budi.wahyu61 StafCS 4096 Feb 25 10:16 ..
+-rw-r--r-- 1 budi.wahyu61 StafCS 1612 Feb 25 09:52 00-toc.txt
+-rw-r--r-- 1 budi.wahyu61 StafCS 3158 Feb 25 09:52 01-public-osteam.txt
+-rw-r--r-- 1 budi.wahyu61 StafCS    0 Feb 25 10:16 02-ls-al.txt
