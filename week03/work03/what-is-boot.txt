@@ -1,0 +1,13 @@
+Hello, this is explanation about linux booting!
+
+from: www.webopedia.com/TERM/linux_boot.html
+
+A Linux boot process is the initialization of the linux open source operating system on a computer. 
+Also known as th Linux startup process, a linux boot process covers a number of steps 
+from initial bootstrap to the launch of initial user-space application.
+
+While spesific Linux Boot initilization steps and commands vary depending on the linux boot 
+initialization steps and commands vary depending on the linux ditribution that is being installed, 
+the startup process generally runs from the BIOS, to boot loader, to kernel, to scheduler, and finally to Init, which initializes th user environment for user interaction and login.
+
+

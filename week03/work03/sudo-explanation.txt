@@ -1,0 +1,53 @@
+#! /bin/sh
+
+### BEGIN INIT INFO
+# Provides:          sudo
+# Required-Start:    $local_fs $remote_fs
+# Required-Stop:
+# X-Start-Before:    rmnologin
+# Default-Start:     2 3 4 5
+# Default-Stop:
+# Short-Description: Provide limited super user privileges to specific users
+# Description: Provide limited super user privileges to specific users.
+### END INIT INFO
+
+. /lib/lsb/init-functions
+
+N=/etc/init.d/sudo
+
+set -e
+
+case "$1" in
+  start)
+	# make sure privileges don't persist across reboots
+	if [ -d /var/lib/sudo ]
+	then
+                find /var/lib/sudo -exec touch -d @0 '{}' \;
+	fi
+	;;
+  stop|reload|restart|force-reload|status)
+	;;
+  *)
+	echo "Usage: $N {start|stop|restart|force-reload|status}" >&2
+	exit 1
+	;;
+esac
+
+exit 0
+
+### ANSWER EXPLANATION
+# What happen when system run command /etc/init.d/sudo start ?
+#
+# from : unix.stackexchange.com/questions/154405/how-does-the-script-etc-init-d-sudo-work
+#
+# /etc/init.d/sudo  is script that provides limited super user privileges to spesific users.
+# the init file(/etc/init.d) itselfs  runs at system boot (or on demand) and do two main things :
+# 1. Start running daemons
+# 2. Do various one-time-per-boot-tasks, such as  cleaning up or preparing files
+#   setting network parameters, etc.
+# 
+# In this case, the sudo init script does not start a daemon. Instead, it invalidates any cached
+# credential files that may have been left around when the system  last shutdown. It does this by using 
+# touch to set their modification time to a very long time ago (0, which is Jan 1, 1970).
+#
+### END OF ANSWER EXPLANATION
