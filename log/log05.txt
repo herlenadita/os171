@@ -1,0 +1,2 @@
+w05-170318-10-PS-Working on week05 assignment
+w05-170318-10-LR-Learning about memmory allocation
